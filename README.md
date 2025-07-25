@@ -1,4 +1,4 @@
-<img width="932" height="319" alt="image" src="https://github.com/user-attachments/assets/7e72250f-6797-4942-b3fc-eaa455b88021" />## 🚀 Overview
+## 🚀 Overview
 
 **GistShare** is a modern, lightweight, and privacy-first web platform for creating, sharing, and discovering beautifully-highlighted code snippets in an instant. Ideal for developers, teams, hackathons, interviews, or anyone seeking a frictionless snippet sharing experience—no account required.
 
