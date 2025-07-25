@@ -1,4 +1,4 @@
-## 🚀 Overview
+<img width="932" height="319" alt="image" src="https://github.com/user-attachments/assets/7e72250f-6797-4942-b3fc-eaa455b88021" />## 🚀 Overview
 
 **GistShare** is a modern, lightweight, and privacy-first web platform for creating, sharing, and discovering beautifully-highlighted code snippets in an instant. Ideal for developers, teams, hackathons, interviews, or anyone seeking a frictionless snippet sharing experience—no account required.
 
@@ -79,9 +79,11 @@ Open [http://localhost:3000](http://localhost:3000) in your browser and start sh
 
 ## 🖼️ Screenshots
 
-<img src="https://github.com/user-attachments/assets/faab2ce9-fb82-48f3-b156-a65346d1181d" alt="GistShare Homepage" style="max-width: 650px; width: 100%; display: block; margin-bottom: 15px;" />
+<img src="https://github.com/user-attachments/assets/362e4271-4010-4560-bc4a-b48d57bd297b" alt="GistShare Homepage" style="max-width: 650px; width: 100%; display: block; margin-bottom: 15px;" />
 
-<img src="https://github.com/user-attachments/assets/ca1613ba-c87f-4bfd-9059-ab1f8098711e" alt="Gist Creation Page" style="max-width: 650px; width: 100%; display: block;" />
+<img src="https://github.com/user-attachments/assets/73231f75-c89c-4838-b39c-55bfefd95b0a" alt="Gist Creation Page" style="max-width: 650px; width: 100%; display: block;" />
+
+
 
 ## 💬 Frequently Asked Questions (FAQ)
 
