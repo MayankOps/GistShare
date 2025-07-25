@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+
+<h2>Paste ID: <%= paste.pasteId %></h2>
+
+<pre id="code"><%= paste.content %></pre>
+
+<button onclick="copyText()">Copy</button>
+
+<form action="/delete/<%= paste.pasteId %>" method="POST" style="display:inline;">
+  <button>Delete</button>
+</form>
+
+<script>
+function copyText() {
+  const text = document.getElementById('code').innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    alert("Copied to clipboard!");
+  });
+}
+</script>
+
+<%- include('partials/footer') %>

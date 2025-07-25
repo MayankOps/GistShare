@@ -1,0 +1,40 @@
+<%- include('partials/header') %>
+
+<!-- Paste Creation Form -->
+<form action="/new" method="POST">
+  <textarea name="content" rows="10" placeholder="Paste your code..."></textarea>
+  <br>
+  Expire in: 
+  <select name="expire">
+    <option value="">Never</option>
+    <option value="10">10 min</option>
+    <option value="60">1 hour</option>
+    <option value="1440">1 day</option>
+  </select>
+  <button type="submit">Create Paste</button>
+</form>
+
+<% if (message) { %>
+  <p style="color:red;"><%= message %></p>
+<% } %>
+
+<hr>
+
+<!-- Paste ID Lookup -->
+<h3>🔍 View a Paste by ID</h3>
+<form id="pasteLookupForm" onsubmit="goToPaste(event)">
+  <input type="text" id="pasteIdInput" placeholder="Enter Paste ID" required />
+  <button type="submit">View Paste</button>
+</form>
+
+<script>
+function goToPaste(event) {
+  event.preventDefault();
+  const pasteId = document.getElementById('pasteIdInput').value.trim();
+  if (pasteId) {
+    window.location.href = `/paste/${pasteId}`;
+  }
+}
+</script>
+
+<%- include('partials/footer') %>
